@@ -42,7 +42,7 @@ print("Emotion Count:", emotion_count)
 
 # Sentiment Analysis
 sentiment_results = TextBlob(example_text)
-sentiment_polarity = -sentiment_results.sentiment.polarity
+sentiment_polarity = sentiment_results.sentiment.polarity
 
 print("Sentiment Polarity:", sentiment_polarity)
 
